@@ -1,6 +1,7 @@
 package com.kh.carrot.dao;
 
 public class PoketmonDao {
+<<<<<<< HEAD
 /*
  
  
@@ -11,4 +12,8 @@ public class PoketmonDao {
  
  */		
 	
+=======
+	//리자몽
+	//?????
+>>>>>>> refs/remotes/origin/main
 }
