@@ -1,5 +1,6 @@
 package com.kh.carrot.controller;
 
+
 import org.springframework.web.bind.annotation.RequestMapping;
 
 public class Team1Controller {
@@ -8,4 +9,9 @@ public class Team1Controller {
 	public String chch() {
 		return "Hello Git!";   
 	}
+
+public class Team1Controller {
+
+	//연습
+
 }
