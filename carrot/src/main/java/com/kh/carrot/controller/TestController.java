@@ -23,7 +23,7 @@ public class TestController {
 
 	@RequestMapping("/yelimlee")
 	public String yelimlee() {
-		return "Hello Git!";
+		return "Hello Gi t!";
 	} 
 
 
