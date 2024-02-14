@@ -8,7 +8,7 @@ public class TestController {
 	
 	@RequestMapping("/cat")
 	public String cat() {
-		return "Hello Git!";
+		return "Hello Git!!";
 	}
 	@RequestMapping("/yelimlee")
 	public String yelimlee() {
