@@ -8,6 +8,6 @@ public class Team4Controller {
 
 	@RequestMapping("dragon")
 	public String dragon() {
-		return "dragon";
+		return "dragon  ";
 	}
 }
