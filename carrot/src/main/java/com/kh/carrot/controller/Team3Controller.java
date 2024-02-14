@@ -14,4 +14,8 @@ public class Team3Controller {
 	public String home() {
 		return "Hello!";
 	}
+	@RequestMapping("/yeonha")
+	public String yeonha() {
+		return "We are the best!!!";
+	}
 }
