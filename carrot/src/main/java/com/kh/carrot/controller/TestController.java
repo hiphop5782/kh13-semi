@@ -16,14 +16,17 @@ public class TestController {
 
 	@RequestMapping("/hello")
 	public String hello() {
-		return "Hello Git!!!";
+		return "Hello Git!  !!! !!";
 	}
 
 	
 
 	@RequestMapping("/yelimlee")
 	public String yelimlee() {
-		return "Hello Gi t!";
+
+		return "Hello Git !";
+
+
 	} 
 
 	
