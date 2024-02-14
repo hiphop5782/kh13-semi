@@ -18,4 +18,9 @@ public class Team3Controller {
 	public String yeonha() {
 		return "We are the best!!!";
 	}
+	@RequestMapping("/hi")
+	public String hi() {
+		return "Hello!!";
+	}
+	
 }
