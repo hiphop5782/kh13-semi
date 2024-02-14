@@ -10,7 +10,7 @@ public class TestController {
 	@RequestMapping("/coffee")
 	public String coffee() {
 		return "Hello Git!";
-	}//ㅁㄴㅇㅁㄴㅇㅎㅀ
+	}//ㅁㄴㅇㅁㄴㅇㅎㅀdssdfsdf
 
 	
 	@RequestMapping("/cat")
