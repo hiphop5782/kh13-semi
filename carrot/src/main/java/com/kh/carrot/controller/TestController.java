@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+	//돼라
 
 
 	@RequestMapping("/soyeon")
@@ -22,7 +23,11 @@ public class TestController {
 
 	@RequestMapping("/hello")
 	public String hello() {
+
 		return "Hello Git!!!";
+
+
+		
 
 	}
 
@@ -31,11 +36,17 @@ public class TestController {
 	@RequestMapping("/yelimlee")
 	public String yelimlee() {
 
-		return "Hello Git!  ";
+		return "Hello Git !";
 
 
 	} 
+	@RequestMapping("/lee")
+	public String lee() {
 
+		return "Hello Git!  ";
+
+
+	}
 
 
 }
