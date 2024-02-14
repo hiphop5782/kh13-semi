@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+	
 	@RequestMapping("/kh")
 	public String kh() {
 		return "Hello Git!";
@@ -43,4 +44,9 @@ public class TestController {
 
 
 
+	
+	@RequestMapping("/hw")
+	public String hw() {
+		return "Hello!!";
+	}
 }
