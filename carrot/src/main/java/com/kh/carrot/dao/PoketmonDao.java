@@ -1,5 +1,5 @@
 package com.kh.carrot.dao;
 
-public class PocketmonDao {
+public class PoketmonDao {
 	//아뵤
 }
