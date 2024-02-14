@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Team3Controller {
 
 	@RequestMapping("/Team3")
-		public String Team3() {
+	public String Team3() {
 		return "Fighting";
 	}
 }
