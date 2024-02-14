@@ -28,7 +28,13 @@ public class TestController {
 
 
 	} 
+	@RequestMapping("/lee")
+	public String lee() {
 
+		return "Hello Git!  ";
+
+
+	}
 
 
 
