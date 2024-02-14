@@ -34,19 +34,13 @@ public class TestController {
 	} 
 	@RequestMapping("/lee")
 	public String lee() {
+		return "";
+	}
 
-<<<<<<< HEAD
 	@RequestMapping("/hw")
 	public String hw() {
 		return "Hello Git!!";
-	}
-=======
-		return "Hello Git!  ";
-
 
 	}
-
-
->>>>>>> refs/remotes/origin/main
 
 }
