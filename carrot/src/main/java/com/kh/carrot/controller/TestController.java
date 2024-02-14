@@ -10,4 +10,8 @@ public class TestController {
 	public String cat() {
 		return "Hello Git!";
 	}
+	@RequestMapping("/yelimlee")
+	public String yelimlee() {
+		return "Hello Git!";
+	} 
 }
