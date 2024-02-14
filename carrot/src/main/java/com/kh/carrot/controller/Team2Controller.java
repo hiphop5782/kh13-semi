@@ -10,6 +10,11 @@ public class Team2Controller {
 	public String zlzlzl() { 
 		return "hi baby";
 	}
+	
+	@RequestMapping("/admin")
+	public String admin() { 
+		return "hi baby";
+	}
 
 
 	
