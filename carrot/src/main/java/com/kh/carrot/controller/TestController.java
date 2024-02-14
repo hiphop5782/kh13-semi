@@ -10,4 +10,15 @@ public class TestController {
 	public String home() {
 		return "Hello Git!";
 	}
+	
+	@RequestMapping("/shwyeah")
+	public String shwyeah() {
+		return "Hello Git!";
+	}
+
+	@RequestMapping("/kwonseozero")
+	public String kwonseozero() {
+		return "Hello Git!";
+	}
+
 }
