@@ -15,6 +15,7 @@ public class TestController {
 @RequestMapping("/yelimlee")
 	public String yelimlee() {
 		return "Hello Git!";
+		//될까요
 	} 
 
 }
