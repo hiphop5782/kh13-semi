@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+
 	@RequestMapping("/Jhome")
 	public String home() {
 		return "Hello Git!";
@@ -20,5 +21,10 @@ public class TestController {
 	public String kwonseozero() {
 		return "Hello Git!";
 	}
+	
+	@RequestMapping("/yelimlee")
+	public String yelimlee() {
+		return "Hello Git!";
+	} 
 
 }

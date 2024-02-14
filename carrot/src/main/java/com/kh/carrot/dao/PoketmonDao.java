@@ -3,6 +3,7 @@ package com.kh.carrot.dao;
 public class PoketmonDao {
 
 
+
 	//?????
 
 	//아뵤2
@@ -19,5 +20,9 @@ public class PoketmonDao {
 
 		//?????
 
+
+
+	//리자몽
+	//?????
 
 }
