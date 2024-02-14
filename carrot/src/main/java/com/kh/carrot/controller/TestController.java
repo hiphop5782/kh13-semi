@@ -20,17 +20,8 @@ public class TestController {
 	}
 
 	
-
-
-
-	@RequestMapping("/lee")
-	public String lee() {
-
-		return "Hello Git!  ";
-
-
+	@RequestMapping("/yeah2")
+	public String yeah2() {
+		return "Hello Git!";
 	}
-
-
-
 }
