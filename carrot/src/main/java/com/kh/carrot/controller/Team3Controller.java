@@ -10,4 +10,8 @@ public class Team3Controller {
 	public String Team3() {
 		return "Fighting";
 	}
+	@RequestMapping("/soyeon")
+	public String home() {
+		return "Hello!";
+	}
 }
