@@ -6,6 +6,6 @@ public class Team1Controller {
 
 	@RequestMapping("/chch")
 	public String chch() {
-		return "Hello Git!";
+		return "Hello Git!";   
 	}
 }
