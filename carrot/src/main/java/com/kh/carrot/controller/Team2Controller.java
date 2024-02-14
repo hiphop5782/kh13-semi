@@ -8,7 +8,7 @@ public class Team2Controller {
 	
 	@RequestMapping("/zlzlzl")
 	public String zlzlzl() { 
-		return "hi baby";
+		return "hi bab y";
 	}
 
 
