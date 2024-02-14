@@ -5,6 +5,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Team2Controller {
+	
+	@RequestMapping("/zlzlzl")
+	public String zlzlzl() { 
+		return "hi baby";
+	}
+
 
 	
 	@RequestMapping("/twoteam")
@@ -21,7 +27,7 @@ public class Team2Controller {
 
 	@RequestMapping("/team2")
 	public String team2() {
-		return "형우야 잘하자";
+		return "형우야 잘하자, 네ㅎ";
 
 	}
 
