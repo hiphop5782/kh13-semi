@@ -16,7 +16,7 @@ public class Team3Controller {
 	}
 	@RequestMapping("/hi")
 	public String hi() {
-		return "Hello!";
+		return "Hello!!";
 	}
 	
 }
