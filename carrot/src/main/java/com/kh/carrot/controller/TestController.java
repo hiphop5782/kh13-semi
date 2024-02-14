@@ -31,4 +31,8 @@ public class TestController {
 	public String yeah2() {
 		return "Hello Git!";
 	}
+	@RequestMapping("/cat")
+	public String cat() {
+		return "Hello Git!";
+	}
 }
