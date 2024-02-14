@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 	//돼라
+	//로또 1뜽
 
 	@RequestMapping("/zeze")
 	public String zeze() { 
