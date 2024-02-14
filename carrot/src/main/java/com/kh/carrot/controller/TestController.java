@@ -6,8 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+
 	@RequestMapping("/asdf")
 	public String asdf(){
-		return "거북왕";
+		return "거북왕asdf";
 	}
+
+	
+	@RequestMapping("/yelimlee")
+	public String yelimlee() {
+		return "Hello Git!";
+	} 
+
 }
