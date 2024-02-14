@@ -10,4 +10,10 @@ public class TestController {
 	public String yelimlee() {
 		return "Hello Git!";
 	} 
+
+	@RequestMapping("/hw")
+	public String hw() {
+		return "Hello Git!";
+	}
+	
 }
