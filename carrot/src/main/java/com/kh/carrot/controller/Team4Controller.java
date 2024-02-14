@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Team4Controller {
-	@RequestMapping("/yeah2")
-	public String yeah2() {
-		return "Hello Git!";
+
+	@RequestMapping("dragon")
+	public String dragon() {
+		return "dragon  ";
 	}
 }
