@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-	@RequestMapping("/git")
-	public String git() { 
-		return "Hello Git !";
+	@RequestMapping("/zeze")
+	public String zeze() { 
+		return "Hello Git  !";
 	}
 }
