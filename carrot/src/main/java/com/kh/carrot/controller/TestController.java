@@ -12,6 +12,17 @@ public class TestController {
 		return "Hello Git!!!";
 	}
 	
+
+//	@RequestMapping("/yelimlee")
+//	public String yelimlee() {
+//		return "Hello Git!";
+//	} 
+
+
+//	@RequestMapping("/cat")
+//	public String cat() {
+//		return "Hello Git!!";
+//	}
 //	@RequestMapping("/yelimlee")
 //	public String yelimlee() {
 //		return "Hello Git!";
