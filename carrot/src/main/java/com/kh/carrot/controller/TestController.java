@@ -26,5 +26,8 @@ public class TestController {
 	public String yelimlee() {
 		return "Hello Git!";
 	} 
-
+	@RequestMapping("/yelimlee2")
+	public String yelimlee2() {
+		return "Hello Git!";
+	} 
 }
