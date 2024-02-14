@@ -4,18 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
-
+public class Team3Controller {
+	
 	@RequestMapping("/soyeon")
-	public String hello() {
-		return "Hello Git!";
+	public String home() {
+		return "Hello!";
 	}
-
-	
-
-
-
-	
-
-
 }
