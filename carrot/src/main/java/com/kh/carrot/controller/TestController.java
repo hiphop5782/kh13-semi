@@ -22,13 +22,8 @@ public class TestController {
 
 	
 
-	@RequestMapping("/yelimlee")
-	public String yelimlee() {
-
-		return "Hello Git !";
 
 
-	} 
 	@RequestMapping("/lee")
 	public String lee() {
 
