@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Team4Controller {
 	@RequestMapping("/cat")
 	public String cat() {
-		return "Hello Cat!";
+		return "Hello Cat!!";
 	}
 }
