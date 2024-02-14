@@ -5,13 +5,30 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-	
-	@RequestMapping("/yeah2")
-	public String yeah2() {
+
+	@RequestMapping("/kh")
+	public String kh() {
 		return "Hello Git!";
 	}
-	@RequestMapping("/yeah3")
-	public String yeah3() {
+
+	// 돼라
+	@RequestMapping("/zeze")
+	public String zeze() {
+		return "Hello Git  !";
+	}
+
+	@RequestMapping("/hello")
+	public String hello() {
+		return "Hello Git!  !!! !!";
+	}
+
+	@RequestMapping("/lee")
+	public String lee() {
+		return "Hello Git!";
+	}
+
+	@RequestMapping("/yeah2")
+	public String yeah2() {
 		return "Hello Git!";
 	}
 }

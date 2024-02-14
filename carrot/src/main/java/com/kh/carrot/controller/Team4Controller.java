@@ -4,11 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Team3Controller {
-
-	@RequestMapping("/soyeon")
-	public String home() {
-		return "Hello!";
-
+public class Team4Controller {
+	@RequestMapping("/yeah2")
+	public String yeah2() {
+		return "Hello Git!";
 	}
 }
