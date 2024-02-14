@@ -15,6 +15,11 @@ public class Team2Controller {
 	public String admin() { 
 		return "hi baby";
 	}
+	
+	@RequestMapping("/admin1")
+	public String admin1() { 
+		return "hi baby";
+	}
 
 
 	
