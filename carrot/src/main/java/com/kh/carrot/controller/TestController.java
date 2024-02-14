@@ -34,7 +34,7 @@ public class TestController {
 	}
 	
 	@RequestMapping("/hw")
-	public String hw() {
+	public String last() {
 		return "Hello!!";
 	}
 }
