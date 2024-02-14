@@ -6,10 +6,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+	//돼라
 
 	@RequestMapping("/hello")
 	public String hello() {
-		return "Hello Git!!!";
+		return "Hello Git!  !!! !!";
+	}
+	@RequestMapping("/lee")
+	public String lee() {
+		return "Hello Git!  ";
 	}
 
 }
