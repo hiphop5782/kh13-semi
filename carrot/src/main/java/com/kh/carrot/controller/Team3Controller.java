@@ -8,6 +8,6 @@ public class Team3Controller {
 
 	@RequestMapping("/Hi")
 	public String Hi() {
-		return "Hello Git!";
+		return "Hello Git!!!";
 	}
 }
