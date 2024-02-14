@@ -32,6 +32,18 @@ public class TestController {
 	public String yeah2() {
 		return "Hello Git!";
 	}
+	@RequestMapping("/yelimlee")
+	public String yelimlee() {
+
+		return "Hello Git !";
+
+
+	} 
+
+
+
+
+
 	
 	@RequestMapping("/hw")
 	public String hw() {
